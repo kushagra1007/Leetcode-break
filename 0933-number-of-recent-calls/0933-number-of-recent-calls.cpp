@@ -6,17 +6,12 @@ public:
     }
     
     int ping(int t) {
-        if(q.empty()){
-            q.push(t);
-            return 1;
-        }
-        else{
             int margin = t-3000;
             while(!q.empty() && q.front() < margin){
                 q.pop();
             }
             q.push(t);
-        }
+        
         return q.size();
 
 
