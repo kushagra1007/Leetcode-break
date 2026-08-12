@@ -17,9 +17,14 @@
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/kushagra1007/Leetcode-break/tree/master/0155-min-stack) |
 | [0933-number-of-recent-calls](https://github.com/kushagra1007/Leetcode-break/tree/master/0933-number-of-recent-calls) |
 ## Data Stream
 |  |
 | ------- |
 | [0933-number-of-recent-calls](https://github.com/kushagra1007/Leetcode-break/tree/master/0933-number-of-recent-calls) |
+## Stack
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/kushagra1007/Leetcode-break/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
