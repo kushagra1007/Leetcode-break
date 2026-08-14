@@ -6,6 +6,7 @@
 | ------- |
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
+| [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 | [2073-time-needed-to-buy-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/2073-time-needed-to-buy-tickets) |
 ## Queue
@@ -52,4 +53,12 @@
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/kushagra1007/Leetcode-break/tree/master/0134-gas-station) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
+## Matrix
+|  |
+| ------- |
+| [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
 <!---LeetCode Topics End-->
