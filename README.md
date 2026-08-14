@@ -11,6 +11,7 @@
 ## Queue
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/kushagra1007/Leetcode-break/tree/master/0225-implement-stack-using-queues) |
 | [0933-number-of-recent-calls](https://github.com/kushagra1007/Leetcode-break/tree/master/0933-number-of-recent-calls) |
 | [2073-time-needed-to-buy-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/2073-time-needed-to-buy-tickets) |
 ## Simulation
@@ -21,6 +22,7 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/kushagra1007/Leetcode-break/tree/master/0155-min-stack) |
+| [0225-implement-stack-using-queues](https://github.com/kushagra1007/Leetcode-break/tree/master/0225-implement-stack-using-queues) |
 | [0933-number-of-recent-calls](https://github.com/kushagra1007/Leetcode-break/tree/master/0933-number-of-recent-calls) |
 ## Data Stream
 |  |
@@ -30,6 +32,7 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/kushagra1007/Leetcode-break/tree/master/0155-min-stack) |
+| [0225-implement-stack-using-queues](https://github.com/kushagra1007/Leetcode-break/tree/master/0225-implement-stack-using-queues) |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 ## Monotonic Stack
