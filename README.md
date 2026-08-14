@@ -25,10 +25,12 @@
 | ------- |
 | [0155-min-stack](https://github.com/kushagra1007/Leetcode-break/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/kushagra1007/Leetcode-break/tree/master/0225-implement-stack-using-queues) |
+| [0901-online-stock-span](https://github.com/kushagra1007/Leetcode-break/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/kushagra1007/Leetcode-break/tree/master/0933-number-of-recent-calls) |
 ## Data Stream
 |  |
 | ------- |
+| [0901-online-stock-span](https://github.com/kushagra1007/Leetcode-break/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/kushagra1007/Leetcode-break/tree/master/0933-number-of-recent-calls) |
 ## Stack
 |  |
@@ -36,11 +38,13 @@
 | [0155-min-stack](https://github.com/kushagra1007/Leetcode-break/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/kushagra1007/Leetcode-break/tree/master/0225-implement-stack-using-queues) |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
+| [0901-online-stock-span](https://github.com/kushagra1007/Leetcode-break/tree/master/0901-online-stock-span) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
+| [0901-online-stock-span](https://github.com/kushagra1007/Leetcode-break/tree/master/0901-online-stock-span) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 ## Prefix Sum
 |  |
