@@ -1,33 +1,36 @@
 class Solution {
 public:
-    set<vector<int>> s;
-    void getAllCombinations(vector<int>& arr, int idx,int tar,vector<vector<int>>&ans,vector<int>& combin){
-        if(idx == arr.size() || tar<0){
+    void solve(vector<int>& candidates, int idx, int target,
+               vector<int>& current, vector<vector<int>>& ans) {
+
+        if (target == 0) {
+            ans.push_back(current);
             return;
         }
-        if(tar == 0){
-            if(s.find(combin) == s.end()){
-                ans.push_back(combin);
-                s.insert(combin);
-            }
 
-            return;
+        for (int i = idx; i < candidates.size(); i++) {
+
+            // Since candidates are sorted
+            if (candidates[i] > target)
+                break;
+
+            current.push_back(candidates[i]);
+
+            // i, not i+1, because the same element can be reused
+            solve(candidates, i, target - candidates[i], current, ans);
+
+            current.pop_back();
         }
-        combin.push_back(arr[idx]);
-        // single
-        getAllCombinations(arr,idx+1,tar-arr[idx],ans,combin);
-        // multiple
-        getAllCombinations(arr,idx,tar-arr[idx],ans,combin);
-
-        // backtracking
-        combin.pop_back();
-        getAllCombinations(arr,idx+1,tar,ans,combin);
     }
-    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        vector<vector<int>> ans;
-        vector<int> combine;
 
-        getAllCombinations(candidates,0,target,ans,combine);
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        sort(candidates.begin(), candidates.end());
+
+        vector<vector<int>> ans;
+        vector<int> current;
+
+        solve(candidates, 0, target, current, ans);
+
         return ans;
     }
 };
