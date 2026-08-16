@@ -1,40 +1,48 @@
 class Solution {
 public:
-    void getAllCombinations(vector<int>& arr, int idx, int tar, vector<vector<int>>& ans, vector<int>& combin) {
-        if(tar == 0) {
-            ans.push_back(combin);
+
+    void getAllCombinations(vector<int>& arr, int idx, int target, vector<vector<int>>& ans, vector<int>& combination) {
+
+        // Target achieved
+        if (target == 0) {
+            ans.push_back(combination);
             return;
         }
 
-        if(idx == arr.size() || tar < 0) {
+        // No more elements
+        if (idx == arr.size() || target < 0) {
             return;
         }
 
-        // Take
-        combin.push_back(arr[idx]);
-        getAllCombinations(arr, idx + 1, tar - arr[idx], ans, combin);
+        for (int i = idx; i < arr.size(); i++) {
 
-        // Backtracking
-        combin.pop_back();
+            // Skip duplicate elements at the same recursion level
+            if (i > idx && arr[i] == arr[i - 1])
+                continue;
 
-        // Not Take
-        int nextIdx = idx + 1;
+            // Since array is sorted, no need to continue
+            if (arr[i] > target)
+                break;
 
-        // Skip duplicate elements
-        while(nextIdx < arr.size() && arr[nextIdx] == arr[idx]) {
-            nextIdx++;
+            // Choose
+            combination.push_back(arr[i]);
+
+            // Move to i + 1 because every element can be used only once
+            getAllCombinations(arr, i + 1, target - arr[i], ans, combination);
+
+            // Backtracking
+            combination.pop_back();
         }
-
-        getAllCombinations(arr, nextIdx, tar, ans, combin);
     }
 
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+
         sort(candidates.begin(), candidates.end());
 
         vector<vector<int>> ans;
-        vector<int> combine;
+        vector<int> combination;
 
-        getAllCombinations(candidates, 0, target, ans, combine);
+        getAllCombinations(candidates, 0, target, ans, combination);
 
         return ans;
     }
