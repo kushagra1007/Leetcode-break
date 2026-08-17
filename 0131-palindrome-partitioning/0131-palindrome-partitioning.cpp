@@ -1,29 +1,40 @@
 class Solution {
 public:
-    bool isPalin(string s){
-        string s2 = s;
-        reverse(s2.begin(),s2.end());
-        return s == s2;
+    vector<vector<string>> result;
+    vector<string> current;
+
+    bool isPalindrome(const string& s, int left, int right) {
+        while (left < right) {
+            if (s[left] != s[right]) return false;
+            left++;
+            right--;
+        }
+        return true;
     }
-    void getAllParts(string s,vector<string> & partitions,vector<vector<string>> &ans){
-        if(s.size() == 0){
-            ans.push_back(partitions);
+
+    void backtrack(string& s, int start) {
+        // Base case: reached end of string, current partition is complete
+        if (start == s.length()) {
+            result.push_back(current);
             return;
         }
-        for(int i=0;i<s.size();i++){
-            string part = s.substr(0,i+1);
-            if(isPalin(part)){
-                partitions.push_back(part);
-                getAllParts(s.substr(i+1),partitions,ans);
-                partitions.pop_back();
+
+        for (int end = start; end < s.length(); end++) {
+            if (isPalindrome(s, start, end)) {
+                // choose
+                current.push_back(s.substr(start, end - start + 1));
+
+                // explore
+                backtrack(s, end + 1);
+
+                // un-choose (backtrack)
+                current.pop_back();
             }
         }
     }
-    vector<vector<string>> partition(string s) {
-        vector<vector<string>> ans;
-        vector<string> partitions;
 
-        getAllParts(s, partitions,ans);
-        return ans;
+    vector<vector<string>> partition(string s) {
+        backtrack(s, 0);
+        return result;
     }
 };
