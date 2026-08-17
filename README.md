@@ -113,6 +113,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
 | [1025-divisor-game](https://github.com/kushagra1007/Leetcode-break/tree/master/1025-divisor-game) |
 ## Brainteaser
 |  |
@@ -138,9 +139,14 @@
 | [0046-permutations](https://github.com/kushagra1007/Leetcode-break/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/kushagra1007/Leetcode-break/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0078-subsets](https://github.com/kushagra1007/Leetcode-break/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0090-subsets-ii) |
+## String
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
