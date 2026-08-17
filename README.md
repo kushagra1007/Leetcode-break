@@ -16,6 +16,7 @@
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
 | [2073-time-needed-to-buy-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/2073-time-needed-to-buy-tickets) |
+| [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
 ## Queue
 |  |
 | ------- |
@@ -26,6 +27,7 @@
 |  |
 | ------- |
 | [2073-time-needed-to-buy-tickets](https://github.com/kushagra1007/Leetcode-break/tree/master/2073-time-needed-to-buy-tickets) |
+| [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
 ## Design
 |  |
 | ------- |
@@ -68,10 +70,12 @@
 |  |
 | ------- |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
+| [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
 ## Matrix
 |  |
 | ------- |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
+| [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
 ## Binary Search
 |  |
 | ------- |
@@ -149,4 +153,8 @@
 |  |
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/kushagra1007/Leetcode-break/tree/master/0131-palindrome-partitioning) |
+## Depth-First Search
+|  |
+| ------- |
+| [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
 <!---LeetCode Topics End-->
