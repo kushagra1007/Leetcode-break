@@ -1,49 +1,44 @@
 class Solution {
 public:
-    bool isSafe(vector<string> &board,int row,int col,int n){
-        // horizontal
-        for(int j=0;j<n;j++){
-            if(board[row][j] == 'Q'){
-                return false;
-            }
+    vector<vector<string>> ans;
+    vector<int> col, diag1, diag2;
+
+    void nQueens(vector<string>& board, int row, int n) {
+        if (row == n) {
+            ans.push_back(board);
+            return;
         }
-        //vertical
-        for(int i=0;i<n;i++){
-            if(board[i][col] == 'Q'){
-                return false;
-            }
-        }
-        //. left diagonal
-        for(int i=row,j=col;i>=0 && j>=0;i--,j--){
-            if(board[i][j] == 'Q'){
-                return false;
-            }
-        }
-        //right diagonal
-        for(int i=row,j=col;i>=0 && j>=0;i--,j++){
-            if(board[i][j] == 'Q'){
-                return false;
-            }
-        }
-        return true;
-    }
-    void nQueens(vector<string> &board,int row,int n, vector<vector<string>> &ans){
-        if(row == n){
-            ans.push_back({board});
-            return ;
-        }
-        for(int j=0;j<n;j++){
-            if(isSafe(board,row,j,n)){
-                board[row][j] = 'Q';
-                nQueens(board,row+1,n,ans);
-                board[row][j] = '.';
-            }
+
+        for (int j = 0; j < n; j++) {
+
+            if (col[j] || diag1[row - j + n - 1] || diag2[row + j])
+                continue;
+
+            board[row][j] = 'Q';
+            col[j] = 1;
+            diag1[row - j + n - 1] = 1;
+            diag2[row + j] = 1;
+
+            nQueens(board, row + 1, n);
+
+            board[row][j] = '.';
+            col[j] = 0;
+            diag1[row - j + n - 1] = 0;
+            diag2[row + j] = 0;
         }
     }
+
     vector<vector<string>> solveNQueens(int n) {
-        vector<string> board(n,string(n,'.'));
-        vector<vector<string>> ans;
-        nQueens(board,0,n,ans);
+        ans.clear();
+
+        vector<string> board(n, string(n, '.'));
+
+        col.assign(n, 0);
+        diag1.assign(2 * n - 1, 0);
+        diag2.assign(2 * n - 1, 0);
+
+        nQueens(board, 0, n);
+
         return ans;
     }
 };
