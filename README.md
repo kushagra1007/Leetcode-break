@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/kushagra1007/Leetcode-break/tree/master/0046-permutations) |
@@ -78,6 +79,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
 | [0994-rotting-oranges](https://github.com/kushagra1007/Leetcode-break/tree/master/0994-rotting-oranges) |
 | [2596-check-knight-tour-configuration](https://github.com/kushagra1007/Leetcode-break/tree/master/2596-check-knight-tour-configuration) |
 ## Binary Search
@@ -145,6 +147,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/kushagra1007/Leetcode-break/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/kushagra1007/Leetcode-break/tree/master/0046-permutations) |
@@ -185,6 +188,15 @@
 ## Algorithm X
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/kushagra1007/Leetcode-break/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0052-n-queens-ii) |
+## Hash Table
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
+## Dancing Links
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
