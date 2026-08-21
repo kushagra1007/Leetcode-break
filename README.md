@@ -143,6 +143,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/kushagra1007/Leetcode-break/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0206-reverse-linked-list) |
 ## Backtracking
@@ -203,6 +204,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
