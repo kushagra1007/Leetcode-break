@@ -199,4 +199,12 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/kushagra1007/Leetcode-break/tree/master/0037-sudoku-solver) |
+## Linked List
+|  |
+| ------- |
+| [0876-middle-of-the-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0876-middle-of-the-linked-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0876-middle-of-the-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0876-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
