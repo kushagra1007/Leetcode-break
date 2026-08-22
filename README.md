@@ -49,6 +49,7 @@
 | ------- |
 | [0155-min-stack](https://github.com/kushagra1007/Leetcode-break/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/kushagra1007/Leetcode-break/tree/master/0225-implement-stack-using-queues) |
+| [0234-palindrome-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0234-palindrome-linked-list) |
 | [0503-next-greater-element-ii](https://github.com/kushagra1007/Leetcode-break/tree/master/0503-next-greater-element-ii) |
 | [0901-online-stock-span](https://github.com/kushagra1007/Leetcode-break/tree/master/0901-online-stock-span) |
 | [1856-maximum-subarray-min-product](https://github.com/kushagra1007/Leetcode-break/tree/master/1856-maximum-subarray-min-product) |
@@ -146,6 +147,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/kushagra1007/Leetcode-break/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0234-palindrome-linked-list) |
 ## Backtracking
 |  |
 | ------- |
@@ -206,9 +208,11 @@
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/kushagra1007/Leetcode-break/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
+| [0234-palindrome-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/kushagra1007/Leetcode-break/tree/master/0876-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
